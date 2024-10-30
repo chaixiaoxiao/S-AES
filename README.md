@@ -203,11 +203,13 @@ def key_expansion(key):
  
  [![image](https://imgur.la/images/2024/10/30/image9816bce78f9101ef.md.png)](https://imgur.la/image/image.Cy3Oa)
 [![image](https://imgur.la/images/2024/10/30/imagefb2e4f07fe8ce35f.md.png)](https://imgur.la/image/image.Cyukq)
-     - **3.4.2** 中间相遇攻击：假设你找到了使用相同密钥的明、密文对(一个或多个)，请尝试使用中间相遇攻击的方法找到正确的密钥Key(K1+K2)。(给定明密文对后，暴力破解会得出很多对密钥，但是密钥数量比较多，没法全部展示，所以只显示输出了key1等于给定密钥1的密钥对)
+  
+   - **3.4.2** 中间相遇攻击：假设你找到了使用相同密钥的明、密文对(一个或多个)，请尝试使用中间相遇攻击的方法找到正确的密钥Key(K1+K2)。(给定明密文对后，暴力破解会得出很多对密钥，但是密钥数量比较多，没法全部展示，所以只显示输出了key1等于给定密钥1的密钥对)
+     
  
    [![image](https://imgur.la/images/2024/10/30/imagee1e1aeab0ed1090c.md.png)](https://imgur.la/image/image.CMthU)
- 
-      - **3.4.2**  三重加密将S-AES算法通过三重加密进行扩展，下面两种模式选择一种完成：(1)按照32 bits密钥Key(K1+K2)的模式进行三重加密解密，(2)使用48bits(K1+K2+K3)的模式进行三重加解密。
+   
+   - **3.4.2**  三重加密将S-AES算法通过三重加密进行扩展，下面两种模式选择一种完成：(1)按照32 bits密钥Key(K1+K2)的模式进行三重加密解密，(2)使用48bits(K1+K2+K3)的模式进行三重加解密。
 
 [![image](https://imgur.la/images/2024/10/30/image6e5d5e203571cb04.md.png)](https://imgur.la/image/image.CyZm9)
 [![image](https://imgur.la/images/2024/10/30/imagefdc96c02646e7bc3.md.png)](https://imgur.la/image/image.Cyfvb)
