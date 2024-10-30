@@ -203,7 +203,7 @@ def key_expansion(key):
  
  [![image](https://imgur.la/images/2024/10/30/image9816bce78f9101ef.md.png)](https://imgur.la/image/image.Cy3Oa)
 [![image](https://imgur.la/images/2024/10/30/imagefb2e4f07fe8ce35f.md.png)](https://imgur.la/image/image.Cyukq)
-     - **3.4.2** 中间相遇攻击：假设你找到了使用相同密钥的明、密文对(一个或多个)，请尝试使用中间相遇攻击的方法找到正确的密钥Key(K1+K2)。
+     - **3.4.2** 中间相遇攻击：假设你找到了使用相同密钥的明、密文对(一个或多个)，请尝试使用中间相遇攻击的方法找到正确的密钥Key(K1+K2)。(给定明密文对后，暴力破解会得出很多对密钥，但是密钥数量比较多，没法全部展示，所以只显示输出了key1等于给定密钥1的密钥对)
  
    [![image](https://imgur.la/images/2024/10/30/imagee1e1aeab0ed1090c.md.png)](https://imgur.la/image/image.CMthU)
  
